@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Suspicion Checker</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="main">
+    <h1>URL Suspicion Checker</h1>
+    <form onsubmit="event.preventDefault(); checkURL();">
+        <label for="urlInput">Paste the URL down</label>
+        <input type="text" id="urlInput" placeholder="Enter a URL" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="output" style="margin-top: 20px; font-family: Arial, sans-serif;">
+    </div>
+</div>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
